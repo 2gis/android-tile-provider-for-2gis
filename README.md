@@ -1,0 +1,1 @@
+# android-tile-provider-for-2gis
