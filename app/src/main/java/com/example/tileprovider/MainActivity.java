@@ -12,7 +12,7 @@ import com.google.android.gms.maps.model.TileProvider;
 import com.google.android.gms.maps.model.UrlTileProvider;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Toast;
@@ -21,7 +21,7 @@ import java.net.URL;
 
 public class MainActivity extends AppCompatActivity implements GoogleMap.OnMarkerClickListener, OnSeekBarChangeListener, OnMapReadyCallback {
 
-    private static final String TILE_URL = "http://tile0.maps.2gis.com/tiles?x=%d&y=%d&z=%d&v=1";
+    private static final String TILE_URL = "https://tile0.maps.2gis.com/tiles?x=%d&y=%d&z=%d&v=1";
     private static final int MIN_ZOOM = 2;
     private static final int MAX_ZOOM = 18;
 
